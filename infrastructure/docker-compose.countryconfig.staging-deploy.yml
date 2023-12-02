@@ -42,13 +42,13 @@ services:
 
   gateway:
     environment:
-      - LANGUAGES=en,fr
+      - LANGUAGES=fr,en
       - SENTRY_DSN=${SENTRY_DSN}
-      - COUNTRY=FAR
+      - COUNTRY=HTI
 
   workflow:
     environment:
-      - LANGUAGES=en,fr
+      - LANGUAGES=fr,en
       - SENTRY_DSN=${SENTRY_DSN}
 
   auth:
